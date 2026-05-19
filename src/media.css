@@ -473,4 +473,47 @@
 
 }
 
+@media (max-width: 393px) {
+
+  .navbar{
+    padding: 18px 4%;
+  }
+
+  .logo{
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+
+  .menu-icon{
+    font-size: 22px;
+  }
+
+  .nav-links{
+    top: 72px;
+
+    left: 4%;
+    right: 4%;
+
+    padding: 20px 14px;
+
+    gap: 14px;
+
+    border-radius: 10px;
+  }
+
+  .nav-links a{
+    font-size: 12px;
+  }
+
+  .resume-btn{
+    width: 100%;
+
+    text-align: center;
+
+    padding: 8px 14px;
+
+    font-size: 12px;
+  }
+}
+
 
