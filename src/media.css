@@ -1,33 +1,45 @@
 @media (max-width: 1024px) {
-
-  .nav-links{
-    position: absolute;
-    top: 70px;
-    right: 8%;
-    background: rgba(0,0,0,0.9);
-    flex-direction: column;
-    width: 220px;
-    padding: 20px;
-    gap: 20px;
-    border-radius: 12px;
-
-    display: none;
-  }
-
-  .nav-links.active{
-    display: flex;
+ .navbar{
+    padding: 24px 8%;
   }
 
   .menu-icon{
     display: block;
   }
 
+  .nav-links{
+    position: absolute;
+
+    top: 90px;
+    right: 8%;
+    left: 8%;
+
+    background: rgba(0,0,0,0.95);
+
+    display: none;
+
+    flex-direction: column;
+
+    gap: 22px;
+
+    padding: 30px;
+
+    border-radius: 14px;
+
+    text-align: center;
+
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .nav-links.active{
+    display: flex;
+  }
+
   .resume-btn{
     width: 100%;
     text-align: center;
   }
-
-  .hero {
+ .hero {
     flex-direction: column;
     text-align: center;
     gap: 40px;
@@ -135,21 +147,39 @@
 
 
 }
-@media (max-width: 600px) {
-  .logo{
-    font-size: 16px;
-    letter-spacing: 2px;
-  }
-
-  .nav-links{
-    right: 5%;
-    width: 90%;
-  }
-}
 
 @media (max-width: 768px) {
 
-  .heading {
+  .navbar{
+    padding: 22px 6%;
+  }
+
+  .logo{
+    font-size: 17px;
+    letter-spacing: 2px;
+  }
+
+  .menu-icon{
+    font-size: 26px;
+  }
+
+  .nav-links{
+    top: 82px;
+
+    padding: 25px;
+
+    gap: 18px;
+  }
+
+  .nav-links a{
+    font-size: 14px;
+  }
+
+  .resume-btn{
+    padding: 10px 20px;
+  }
+
+ .heading {
     font-size: 45px;
   }
 
@@ -284,14 +314,37 @@
 }
 @media (max-width: 480px) {
 
-  .nav-links.active{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  .navbar{
+    padding: 20px 5%;
   }
 
+  .logo{
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
 
-  .resume-btn {
-    grid-column: span 2;
+  .menu-icon{
+    font-size: 24px;
+  }
+
+  .nav-links{
+    top: 76px;
+
+    left: 5%;
+    right: 5%;
+
+    padding: 22px 18px;
+
+    gap: 16px;
+  }
+
+  .nav-links a{
+    font-size: 13px;
+  }
+
+  .resume-btn{
+    padding: 9px 16px;
+    font-size: 13px;
   }
 
 
