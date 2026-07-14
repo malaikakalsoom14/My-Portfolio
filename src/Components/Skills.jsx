@@ -56,11 +56,11 @@ function Skills() {
 
           <div className="skill-info">
             <span><FaJs /> JavaScript</span>
-            <span>85%</span>
+            <span>80%</span>
           </div>
 
           <div className="skill-bar">
-            <div style={{ width: "85%" }}></div>
+            <div style={{ width: "80%" }}></div>
           </div>
 
         </div>
@@ -73,11 +73,11 @@ function Skills() {
               React JS (Still Learning)
             </span>
 
-            <span>50%</span>
+            <span>15%</span>
           </div>
 
      <div className="skill-bar">
-<div style={{ width: "50%" }}></div>
+<div style={{ width: "15%" }}></div>
  </div>
 </div>
 
