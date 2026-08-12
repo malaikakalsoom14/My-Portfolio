@@ -20,6 +20,98 @@ function Projects() {
 
       <div className="projects-wrapper">
 
+          <div className="project-row" id="lesco">
+
+          <div className="project-images">
+
+            <img
+              src="/lesco-theft-detection/overview.png"
+              alt="LESCO Theft Detection Overview"
+              className="cover-img"
+            />
+
+            <div className="bottom-images">
+
+              <img
+                src="/lesco-theft-detection/daily.png"
+                alt="LESCO Theft Detection Daily Trend"
+                className="scroll-img"
+              />
+
+              <img
+                src="/lesco-theft-detection/scroll.png"
+                alt="LESCO Theft Detection Dashboard"
+                className="scroll-img"
+              />
+
+            </div>
+
+            <div className="bottom-images">
+
+              <img
+                src="/lesco-theft-detection/mobile1.jpeg"
+                alt="LESCO Theft Detection Mobile View"
+                className="mobile-img"
+              />
+
+              <img
+                src="/lesco-theft-detection/mobile2.jpeg"
+                alt="LESCO Theft Detection Mobile Dashboard"
+                className="mobile-img"
+              />
+
+            </div>
+
+          </div>
+
+          <div className="project-details">
+
+            <span className="project-number">
+              01
+            </span>
+
+            <h3>
+              LESCO Theft Detection
+            </h3>
+
+            <p>
+              Modern UI/UX design with an interactive
+              dashboard for electricity theft and anomaly
+              detection, developed using React JS and Vite
+              with responsive layouts and data-driven
+              dashboard components.
+            </p>
+
+            <h4>
+              Tech Stack
+            </h4>
+
+            <div className="tech-stack">
+
+              <span>React JS</span>
+              <span>Vite</span>
+              <span>CSS3</span>
+              <span>HTML5</span>
+              <span>JavaScript</span>
+
+            </div>
+
+            <div className="project-links">
+
+              <a
+                href="https://theft-detection-frontend.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Demo ↗
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
         <div className="project-row">
 
           <div className="project-images">
@@ -51,7 +143,7 @@ function Projects() {
           <div className="project-details">
 
             <span className="project-number">
-              01
+              02
             </span>
 
             <h3>
@@ -78,147 +170,179 @@ function Projects() {
 
             <div className="project-links">
 
-         <a href="https://feane-by-malaika.netlify.app/">
+              <a
+                href="https://feane-by-malaika.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Live Demo ↗
-         </a>
+              </a>
 
-     </div>
-</div>
- </div>
-    
+            </div>
 
-<div className="project-row">
+          </div>
 
-  <div className="project-images">
+        </div>
 
-    <img
-      src="/edgecut/cover.png"
-      alt=""
-      className="cover-img"
-    />
 
-    <div className="bottom-images">
+         <div className="project-row" id="todo">
 
-      <img
-        src="/edgecut/scroll.png"
-        alt=""
-        className="scroll-img"
-      />
+          <div className="project-images">
 
-      <img
-        src="/edgecut/mobile.jpeg"
-        alt=""
-        className="mobile-img"
-      />
+            <img
+              src="/todos/cover.png"
+              alt="Todo List Cover"
+              className="cover-img"
+            />
 
-    </div>
+            <div className="bottom-images">
 
-  </div>
+              <img
+                src="/todos/scroll.png"
+                alt="Todo List Scroll View"
+                className="scroll-img"
+              />
 
-  <div className="project-details">
+              <img
+                src="/todos/mobile.jpeg"
+                alt="Todo List Mobile View"
+                className="mobile-img"
+              />
 
-    <span className="project-number">
-      02
-    </span>
+            </div>
 
-    <h3>
-      Edgecut Interior Website
-    </h3>
+          </div>
 
-    <p>
-      Elegant responsive interior website
-      designed with modern layouts and
-      smooth user experience for users.
-    </p>
+          <div className="project-details">
 
-    <h4>
-      Tech Stack
-    </h4>
+            <span className="project-number">
+              03
+            </span>
 
-    <div className="tech-stack">
+            <h3>
+              Todo List App
+            </h3>
 
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
+            <p>
+              Simple and efficient todo list app built
+              for task management with clean UI and
+              smooth user experience.
+            </p>
 
-    </div>
+            <h4>
+              Tech Stack
+            </h4>
 
-    <div className="project-links">
+            <div className="tech-stack">
 
-      <a href="https://edgecut-by-malaika.netlify.app/">
-        Live Demo ↗
-      </a>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>React</span>
 
-    </div>
+            </div>
 
-  </div>
+            <div className="project-links">
 
-</div>
-<div className="project-row" id="todo">
+              <a
+                href="https://todoslist-by-malaika.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Demo ↗
+              </a>
 
-  <div className="project-images">
+            </div>
 
-    <img
-      src="/todos/cover.png"
-      alt="Todo List Cover"
-      className="cover-img"
-    />
+          </div>
 
-    <div className="bottom-images">
-<img
-        src="/todos/scroll.png"
-        alt="Todo List Scroll View"
-        className="scroll-img"
-      />
+        </div>
 
-      <img
-        src="/todos/mobile.jpeg"
-        alt="Todo List Mobile View"
-        className="mobile-img"
-      />
 
-    </div>
+        
+         
 
-  </div>
 
-  <div className="project-details">
+        <div className="project-row">
 
-    <span className="project-number">
-      03
-    </span>
+          <div className="project-images">
 
-    <h3>
-      Todo List App
-    </h3>
+            <img
+              src="/edgecut/cover.png"
+              alt=""
+              className="cover-img"
+            />
 
-    <p>
-      Simple and efficient todo list app built for task management with clean UI and smooth user experience.
-    </p>
+            <div className="bottom-images">
 
-    <h4>
-      Tech Stack
-    </h4>
+              <img
+                src="/edgecut/scroll.png"
+                alt=""
+                className="scroll-img"
+              />
 
-    <div className="tech-stack">
+              <img
+                src="/edgecut/mobile.jpeg"
+                alt=""
+                className="mobile-img"
+              />
 
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
-      <span>React</span>
+            </div>
 
-    </div>
-<div className="project-links">
+          </div>
 
-      <a href="https://todoslist-by-malaika.netlify.app/">
-        Live Demo ↗
-      </a>
+          <div className="project-details">
 
-    </div>
- </div>
-  </div>
+            <span className="project-number">
+              04
+            </span>
 
-</div>
-</section>
+            <h3>
+              Edgecut Interior Website
+            </h3>
+
+            <p>
+              Elegant responsive interior website
+              designed with modern layouts and
+              smooth user experience for users.
+            </p>
+
+            <h4>
+              Tech Stack
+            </h4>
+
+            <div className="tech-stack">
+
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+
+            </div>
+
+            <div className="project-links">
+
+              <a
+                href="https://edgecut-by-malaika.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Demo ↗
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+      
+
+
+      
+      </div>
+
+    </section>
   )
 }
 
