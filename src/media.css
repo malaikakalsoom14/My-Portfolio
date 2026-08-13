@@ -17,20 +17,13 @@
     top: 88px;
     left: 7%;
     right: 7%;
-
     background: rgba(0,0,0,0.96);
-
     display: none;
     flex-direction: column;
-
     gap: 22px;
-
     padding: 28px;
-
     border-radius: 14px;
-
     text-align: center;
-
     border: 1px solid rgba(255,255,255,0.08);
   }
 
@@ -117,15 +110,102 @@
   .project-row{
     grid-template-columns: 1fr;
     gap: 50px;
+    min-width: 0;
+  }
+
+  .project-images{
+    width: 100%;
+    min-width: 0;
+    overflow: hidden;
   }
 
   .cover-img{
+    width: 100%;
+    max-width: 100%;
     height: 360px;
+    display: block;
+    object-fit: cover;
   }
 
-  .scroll-img,
-  .mobile-img{
+  .bottom-images{
+    width: 100%;
+    min-width: 0;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+  }
+
+  .scroll-img{
+    width: calc(75% - 10px);
+    max-width: calc(75% - 10px);
     height: 200px;
+    object-fit: cover;
+    flex-shrink: 1;
+  }
+
+  .mobile-img{
+    width: calc(25% - 10px);
+    max-width: calc(25% - 10px);
+    height: 200px;
+    object-fit: cover;
+    flex-shrink: 1;
+  }
+
+  /* LESCO */
+  #lesco{
+    min-width: 0;
+  }
+
+  #lesco .project-images{
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  #lesco .cover-img{
+    width: 100%;
+    max-width: 100%;
+    height: 360px;
+    display: block;
+    object-fit: cover;
+  }
+
+  #lesco .bottom-images{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+  }
+
+  #lesco .scroll-img{
+    width: calc(75% - 10px);
+    max-width: calc(75% - 10px);
+    height: 200px;
+    object-fit: cover;
+    flex-shrink: 1;
+  }
+
+  #lesco .mobile-img{
+    width: calc(25% - 10px);
+    max-width: calc(25% - 10px);
+    height: 200px;
+    object-fit: cover;
+    flex-shrink: 1;
+  }
+
+  #lesco .project-details{
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+
+  #lesco .project-details h3,
+  #lesco .project-details p{
+    max-width: 100%;
+    overflow-wrap: break-word;
   }
 
   .project-details h3{
@@ -146,6 +226,7 @@
   }
 
 }
+
 
 @media (max-width: 768px) {
 
@@ -170,9 +251,7 @@
     top: 80px;
     left: 6%;
     right: 6%;
-
     padding: 24px;
-
     gap: 18px;
   }
 
@@ -280,14 +359,89 @@
     font-size: 14px;
   }
 
+  /*
+    GENERAL PROJECT IMAGES
+    Mobile par images one-by-one
+  */
+
   .bottom-images{
     flex-direction: column;
+    width: 100%;
+    gap: 15px;
   }
 
   .scroll-img,
   .mobile-img{
     width: 100%;
+    max-width: 100%;
     height: 190px;
+    display: block;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  /*
+    LESCO MOBILE
+    Dono image rows properly stack hongi
+    aur screen se bahar nahi niklengy
+  */
+
+  #lesco .project-images{
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  #lesco .cover-img{
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+
+  #lesco .bottom-images{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow: hidden;
+  }
+
+  #lesco .scroll-img,
+  #lesco .mobile-img{
+    width: 100%;
+    max-width: 100%;
+    height: 190px;
+    display: block;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  #lesco .project-details{
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    text-align: center;
+    overflow-wrap: break-word;
+  }
+
+  #lesco .project-details h3{
+    width: 100%;
+    max-width: 100%;
+    font-size: 34px;
+    line-height: 1.15;
+    overflow-wrap: break-word;
+    word-break: normal;
+  }
+
+  #lesco .project-details p{
+    width: 100%;
+    max-width: 100%;
+    font-size: 14px;
+    overflow-wrap: break-word;
   }
 
   .project-details{
@@ -332,6 +486,7 @@
 
 }
 
+
 @media (max-width: 480px) {
 
   section{
@@ -353,12 +508,9 @@
 
   .nav-links{
     top: 74px;
-
     left: 5%;
     right: 5%;
-
     padding: 20px 16px;
-
     gap: 16px;
   }
 
@@ -468,6 +620,40 @@
     font-size: 30px;
   }
 
+  /*
+    LESCO 480px
+  */
+
+  #lesco .cover-img{
+    width: 100%;
+    max-width: 100%;
+    height: 240px;
+    object-fit: cover;
+  }
+
+  #lesco .bottom-images{
+    width: 100%;
+    gap: 12px;
+  }
+
+  #lesco .scroll-img,
+  #lesco .mobile-img{
+    width: 100%;
+    max-width: 100%;
+    height: 160px;
+    object-fit: cover;
+  }
+
+  #lesco .project-details h3{
+    font-size: 26px;
+    line-height: 1.15;
+  }
+
+  #lesco .project-details p{
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
   .project-details h3{
     font-size: 26px;
   }
@@ -512,6 +698,7 @@
 
 }
 
+
 @media (max-width: 393px) {
 
   .navbar{
@@ -528,12 +715,9 @@
 
   .nav-links{
     top: 70px;
-
     left: 4%;
     right: 4%;
-
     padding: 18px 14px;
-
     gap: 14px;
   }
 
@@ -565,6 +749,78 @@
   .projects-title h2,
   .footer-left h2{
     font-size: 28px;
+  }
+
+  /*
+    LESCO 393px
+    Extra protection against horizontal overflow
+  */
+
+  #lesco{
+    width: 100%;
+    min-width: 0;
+  }
+
+  #lesco .project-images{
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  #lesco .cover-img{
+    width: 100%;
+    max-width: 100%;
+    height: 210px;
+    object-fit: cover;
+  }
+
+  #lesco .bottom-images{
+    width: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+  }
+
+  #lesco .scroll-img,
+  #lesco .mobile-img{
+    width: 100%;
+    max-width: 100%;
+    height: 135px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  #lesco .project-details{
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  #lesco .project-details h3{
+    width: 100%;
+    max-width: 100%;
+    font-size: 24px;
+    line-height: 1.15;
+    overflow-wrap: break-word;
+  }
+
+  #lesco .project-details p{
+    width: 100%;
+    max-width: 100%;
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  #lesco .tech-stack{
+    width: 100%;
+    justify-content: center;
+  }
+
+  #lesco .project-links{
+    align-items: center;
   }
 
   .project-details h3{

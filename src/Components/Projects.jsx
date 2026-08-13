@@ -25,7 +25,7 @@ function Projects() {
           <div className="project-images">
 
             <img
-              src="/lesco-theft-detection/overview.png"
+              src="/lesco/overview.png"
               alt="LESCO Theft Detection Overview"
               className="cover-img"
             />
@@ -33,13 +33,13 @@ function Projects() {
             <div className="bottom-images">
 
               <img
-                src="/lesco-theft-detection/daily.png"
+                src="/lesco/daily.png"
                 alt="LESCO Theft Detection Daily Trend"
                 className="scroll-img"
               />
 
               <img
-                src="/lesco-theft-detection/scroll.png"
+                src="/lesco/scroll.png"
                 alt="LESCO Theft Detection Dashboard"
                 className="scroll-img"
               />
@@ -49,13 +49,13 @@ function Projects() {
             <div className="bottom-images">
 
               <img
-                src="/lesco-theft-detection/mobile1.jpeg"
+                src="/lesco/mobile1.jpeg"
                 alt="LESCO Theft Detection Mobile View"
                 className="mobile-img"
               />
 
               <img
-                src="/lesco-theft-detection/mobile2.jpeg"
+                src="/lesco/mobile2.jpeg"
                 alt="LESCO Theft Detection Mobile Dashboard"
                 className="mobile-img"
               />
